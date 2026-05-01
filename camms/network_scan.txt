@@ -1,0 +1,128 @@
+# Nmap 7.99 scan initiated Sun Apr 12 19:14:04 2026 as: nmap -sS -sV -O -p- --min-rate=1000 -T4 -oN network_scan.txt 192.168.68.0/24
+Warning: 192.168.68.121 giving up on port because retransmission cap hit (6).
+Nmap scan report for 192.168.68.1 (192.168.68.1)
+Host is up (0.0069s latency).
+Not shown: 65531 closed tcp ports (reset)
+PORT      STATE SERVICE    VERSION
+80/tcp    open  http       OpenWrt uHTTPd
+443/tcp   open  ssl/https?
+1900/tcp  open  upnp       MiniUPnP 1.8 (TP-LINK router; UPnP 1.1)
+20001/tcp open  ssh        Dropbear sshd (protocol 2.0)
+MAC Address: 9C:A2:F4:2D:5F:A0 (TP-Link Systems)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.99%E=4%D=4/12%OT=80%CT=1%CU=38348%PV=Y%DS=1%DC=D%G=Y%M=9CA2F4%T
+OS:M=69DBC697%P=x86_64-pc-linux-gnu)SEQ(SP=102%GCD=1%ISR=10E%TI=Z%CI=I%II=I
+OS:%TS=8)SEQ(SP=105%GCD=1%ISR=10D%TI=Z%CI=I%II=I%TS=8)SEQ(SP=107%GCD=1%ISR=
+OS:10C%TI=Z%CI=I%II=I%TS=8)SEQ(SP=108%GCD=1%ISR=10A%TI=Z%CI=I%II=I%TS=8)OPS
+OS:(O1=M5B4ST11NW6%O2=M5B4ST11NW6%O3=M5B4NNT11NW6%O4=M5B4ST11NW6%O5=M5B4ST1
+OS:1NW6%O6=M5B4ST11)WIN(W1=3890%W2=3890%W3=3890%W4=3890%W5=3890%W6=3890)ECN
+OS:(R=Y%DF=Y%T=40%W=3908%O=M5B4NNSNW6%CC=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=A
+OS:S%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R
+OS:=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F
+OS:=R%O=%RD=0%Q=)T7(R=N)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%
+OS:RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+Service Info: OS: Linux; Devices: WAP, broadband router; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.68.105 (192.168.68.105)
+Host is up (0.023s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT      STATE SERVICE       VERSION
+1467/tcp  open  ssl/csdmbase?
+46111/tcp open  tcpwrapped
+MAC Address: 1A:79:7F:E7:47:6E (Unknown)
+Device type: phone
+Running: Google Android 12.X|10.X|11.X, Linux 5.X|4.X
+OS CPE: cpe:/o:google:android:12 cpe:/o:linux:linux_kernel:5.4 cpe:/o:linux:linux_kernel:4 cpe:/o:google:android:10 cpe:/o:google:android:11
+OS details: Android 12 (Linux 5.4), Android 10 - 12 (Linux 4.14 - 4.19)
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.68.113 (192.168.68.113)
+Host is up (0.021s latency).
+Not shown: 65531 closed tcp ports (reset)
+PORT      STATE SERVICE      VERSION
+49152/tcp open  tcpwrapped
+52356/tcp open  unknown
+55930/tcp open  unknown
+62078/tcp open  iphone-sync?
+MAC Address: 2A:9C:28:C4:BA:1A (Unknown)
+Device type: general purpose|phone
+Running: Apple macOS 26.X, Apple iOS 26.X
+OS CPE: cpe:/o:apple:mac_os_x:26.0 cpe:/o:apple:iphone_os:26
+OS details: Apple macOS 26.0 (Tahoe) or iOS 26 (Darwin 25.0.0)
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.68.121 (192.168.68.121)
+Host is up (0.0072s latency).
+All 65535 scanned ports on 192.168.68.121 (192.168.68.121) are in ignored states.
+Not shown: 64411 closed tcp ports (reset), 1124 filtered tcp ports (no-response)
+MAC Address: 8A:26:67:73:9E:83 (Unknown)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|media device|specialized
+Running: Microsoft Windows 10|11|2016, Microsoft Xbox 360, NTI embedded
+OS CPE: cpe:/o:microsoft:windows_10 cpe:/o:microsoft:windows_11 cpe:/o:microsoft:windows_server_2016 cpe:/h:microsoft:xbox_360_kernel
+OS details: Microsoft Windows 10 - 11, Microsoft Windows Server 2016, Microsoft Xbox 360 Dashboard, NTI E-MICRO-TRHP temperature sensor
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.68.126 (192.168.68.126)
+Host is up (0.017s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT  STATE    SERVICE VERSION
+7/tcp filtered echo
+MAC Address: BA:77:B9:C7:96:14 (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.68.130 (192.168.68.130)
+Host is up (0.012s latency).
+Not shown: 65531 closed tcp ports (reset)
+PORT      STATE SERVICE VERSION
+35163/tcp open  unknown
+44049/tcp open  unknown
+45553/tcp open  unknown
+62110/tcp open  unknown
+MAC Address: 12:49:29:77:BE:B1 (Unknown)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.99%E=4%D=4/12%OT=35163%CT=1%CU=41056%PV=Y%DS=1%DC=D%G=Y%M=12492
+OS:9%TM=69DBC697%P=x86_64-pc-linux-gnu)SEQ(SP=100%GCD=1%ISR=10E%TI=Z%CI=Z%I
+OS:I=I%TS=A)SEQ(SP=104%GCD=1%ISR=10D%TI=Z%CI=Z%II=I%TS=A)SEQ(SP=105%GCD=1%I
+OS:SR=106%TI=Z%CI=Z%II=I%TS=A)SEQ(SP=107%GCD=1%ISR=107%TI=Z%CI=Z%II=I%TS=A)
+OS:SEQ(SP=108%GCD=1%ISR=109%TI=Z%CI=Z%II=I%TS=A)OPS(O1=M5B4ST11NW7%O2=M5B4S
+OS:T11NW7%O3=M5B4NNT11NW7%O4=M5B4ST11NW7%O5=M5B4ST11NW7%O6=M5B4ST11)WIN(W1=
+OS:FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)ECN(R=Y%DF=Y%T=40%W=FFFF%O=
+OS:M5B4NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)
+OS:T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S
+OS:+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=
+OS:Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G
+OS:%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.68.134 (192.168.68.134)
+Host is up (0.022s latency).
+All 65535 scanned ports on 192.168.68.134 (192.168.68.134) are in ignored states.
+Not shown: 65535 closed tcp ports (reset)
+MAC Address: 02:47:50:DA:1F:FF (Unknown)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|media device|specialized
+Running: Microsoft Windows 10|11|2016, Microsoft Xbox 360, NTI embedded
+OS CPE: cpe:/o:microsoft:windows_10 cpe:/o:microsoft:windows_11 cpe:/o:microsoft:windows_server_2016 cpe:/h:microsoft:xbox_360_kernel
+OS details: Microsoft Windows 10 - 11, Microsoft Windows Server 2016, Microsoft Xbox 360 Dashboard, NTI E-MICRO-TRHP temperature sensor
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.68.139 (192.168.68.139)
+Host is up (0.020s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT      STATE SERVICE    VERSION
+49152/tcp open  unknown
+62078/tcp open  tcpwrapped
+MAC Address: 72:25:0B:6F:0B:6C (Unknown)
+Device type: phone|media device
+Running: Apple iOS 14.X|15.X, Apple tvOS 14.X|16.X
+OS CPE: cpe:/o:apple:iphone_os:14 cpe:/o:apple:iphone_os:15 cpe:/o:apple:tvos:14 cpe:/o:apple:tvos:16
+OS details: Apple iOS 14.0 - 15.6 or tvOS 14.3 - 16.1 (Darwin 20.0.0 - 22.1.0)
+Network Distance: 1 hop
+

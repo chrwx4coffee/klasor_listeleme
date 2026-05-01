@@ -1,0 +1,7 @@
+Host *
+    HostKeyAlgorithms +ssh-rsa
+    PubkeyAcceptedAlgorithms +ssh-rsa
+    KexAlgorithms +diffie-hellman-group1-sha1,diffie-hellman-group14-sha1
+    Ciphers +aes128-cbc,3des-cbc,aes128-ctr
+    StrictHostKeyChecking no
+    UserKnownHostsFile /dev/null
